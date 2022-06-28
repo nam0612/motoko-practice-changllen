@@ -1,0 +1,9 @@
+service : {
+  day_of_the_week: (nat) -> (text);
+  greet: (text) -> (text);
+  init_count: (nat) -> (vec nat);
+  split_test: (text) -> (text);
+  squared_array: (vec nat) -> (vec nat);
+  sum_of_array: (vec nat) -> (nat);
+  swap: (vec nat, nat, nat) -> (vec nat);
+}

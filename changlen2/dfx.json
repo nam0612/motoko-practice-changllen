@@ -1,0 +1,35 @@
+{
+  "canisters": {
+    "changlen2": {
+      "main": "src/changlen2/main.mo",
+      "type": "motoko"
+    },
+    "changlen2_assets": {
+      "dependencies": [
+        "changlen2"
+      ],
+      "frontend": {
+        "entrypoint": "src/changlen2_assets/src/index.html"
+      },
+      "source": [
+        "src/changlen2_assets/assets",
+        "dist/changlen2_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.10.1",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}

@@ -1,0 +1,14 @@
+service : {
+  capitalize_text: (text) -> (text);
+  capitalize_text_2: (nat, nat) -> (nat);
+  decimals_to_bits: (nat) -> (text);
+  duplicate_character_1: (text) -> (text);
+  is_inside: (text, text) -> (bool);
+  max_number_with_n_bits: (nat) -> (nat);
+  max_number_with_n_bits_1: (nat) -> (nat);
+  maximum: (vec nat) -> (nat);
+  maximum_2: (vec nat) -> (nat);
+  nat_to_nat8: (nat) -> (nat8);
+  sum_of_array: (vec nat) -> (nat);
+  trim_whitespace: (text) -> (text);
+}
